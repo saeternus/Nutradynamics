@@ -16,6 +16,7 @@ function App() {
         <Route path="/Catalog" element={<Pages.Catalog />} />
         <Route path="/Testimonial" element={<Pages.Testimonial />} />
         <Route path="/Gallery" element={<Pages.Gallery />} />
+        <Route path="/Login" element={<Pages.Login />} />
       </Route>
     </Routes>
   </BrowserRouter>

@@ -1,0 +1,28 @@
+.contactdesbox{
+    width: 30%;
+    max-width: 90%;
+    min-width: 300px;
+    height: fit-content;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.contactheading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    padding-bottom: 40px;
+}
+.contacttext{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+max-width: 410px;
+width: 95%;
+}
