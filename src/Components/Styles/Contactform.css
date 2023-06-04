@@ -1,0 +1,98 @@
+.contactformbox{
+    width: 40%;
+    height: fit-content;
+    max-height: 800px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.contactformbox input{
+    height: 65px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    background-color: #D9D9D9;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name, .mobile{
+    width: 280px;
+    max-width: 90%;
+    min-width: 200px;
+}
+.email{
+    width: 600px;
+    max-width: 90%;
+}
+.contactformbox textarea{
+    width: 600px;
+    max-width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    border: none;
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inputsnamemob{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    max-width: 90%;
+
+}
+.submitbox{
+    width: 600px;
+    max-width: 90%;
+    height: 65px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.submitbutton{
+    width: 200px;
+    height: 100%;
+    background-color: #A6C9FF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+.contactnobox{
+    width: 600px;
+    max-width: 90%;
+    height: 65px;
+    margin: 45px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+}

@@ -1,0 +1,40 @@
+.Gallerybox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eighty{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.gallerytext{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+margin-bottom: 50px;
+}
+.maingallery{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.coloum{
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.coloum img{
+    width: 100%;
+}
