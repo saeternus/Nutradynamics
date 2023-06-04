@@ -1,0 +1,56 @@
+/* Footer Style */
+.footer {
+  background-color: #1E1E1E;
+  padding: 32px;
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: left;
+}
+
+.footerbottom {
+    text-align: center;
+}
+.footerbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footeraddress {
+  width: 34%;
+}
+
+.addresscontent {
+  text-align: left;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0.2rem 0rem;
+  margin: 0px;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.footerproductlist {
+  padding: 0.5rem 0rem;
+}
+
+.footerlist {
+    text-align: left;
+}
+
+.footeritems {
+    padding-left: 1rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #777;
+}
