@@ -1,12 +1,12 @@
 import "./App.css";
 import * as Components from "./Components/index";
 import * as Pages from "./Pages/index";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route
             path="/"
@@ -26,7 +26,7 @@ function App() {
             <Route path="/Login" element={<Pages.Login />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
