@@ -1,7 +1,5 @@
 import React from 'react'
 import './Styles/HomeGallery.css'
-import logo from '../Assets/Logo-removebg-preview 1.png'
-import Ben1 from '../Assets/top.png'
 
 function Homegallery() {
   return (

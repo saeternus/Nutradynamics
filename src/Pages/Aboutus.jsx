@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import React, { useLayoutEffect, useRef, useState } from 'react'
 import * as Components from '../Components/index'
 import './Styles/Aboutus.css'
 import person from '../Assets/person.png'
