@@ -66,42 +66,42 @@ function Navbar() {
         </div>
       </div>
       <div className={`verticallist ${(toggle) ? 'menu' : 'close'}`} >
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/'>Home</Link>
 
         </ul>
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/Product'>Product</Link>
 
         </ul>
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/Catalog'>Catalog</Link>
 
         </ul>
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/Gallery'>Gallery</Link>
 
         </ul>
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/Testimonial'>Testimonial</Link>
 
         </ul>
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/AboutUs'>About Us</Link>
 
         </ul>
-        <ul className='item'>
+        <ul className='item' onClick={toggler}>
 
           <Link to='/Contact'>Contact</Link>
 
         </ul>
-        <ul className='item '>
+        <ul className='item ' onClick={toggler}>
 
           <Link to='/Login'>Login</Link>
 
