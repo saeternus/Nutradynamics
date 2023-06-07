@@ -1,0 +1,26 @@
+.productstitle{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+padding-bottom: 30px;
+}
+.emptydiv{
+    height: 150px;
+}
+.productsbox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productsgrid{
+    width: 80%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin-bottom: 40px;
+}
