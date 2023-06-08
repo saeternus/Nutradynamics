@@ -9,6 +9,7 @@ import Contactform from "./Contactform";
 import Footer from "./Footer";
 import Productcard from "./Productcard";
 import Reviewcard from "./Reviewcard";
+import TestimonialCard from "./TestimonialCard";
 
 export {
   Navbar,
@@ -21,5 +22,6 @@ export {
   Contactform,
   Footer,
   Productcard,
-  Reviewcard
+  Reviewcard,
+  TestimonialCard,
 };
