@@ -7,6 +7,7 @@ import Teamcard from "./Teamcard";
 import Contactdes from "./Contactdes";
 import Contactform from "./Contactform";
 import Footer from "./Footer";
+import TestimonialCard from "./TestimonialCard";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Contactdes,
   Contactform,
   Footer,
+  TestimonialCard,
 };
