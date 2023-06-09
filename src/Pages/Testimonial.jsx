@@ -12,7 +12,7 @@ function Testimonial() {
     reviews:[{
       name : 'Leo',
       designation : 'Head Designer',
-      rating : '4.0',
+      rating : '4.2',
       title: 'It was a very good experience',
       text : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.',
       profilepic : `${profilepic}`
@@ -61,12 +61,15 @@ function Testimonial() {
       const currentactive = document.querySelector(`[data-index="${c}"]`),
             nextcard = document.querySelector(`[data-index="${nextindex}"]`),
             previouscard = document.querySelector(`[data-index = "${previousindex}"]`),
-            nexttonextcard = document.querySelector(`[data-index = "${nexttonextindex}"]`);
+            nexttonextcard = document.querySelector(`[data-index = "${nexttonextindex}"]`),
+            currentcircle = document.querySelector(`[circleindex = '${c}']`),
+            nextcircle = document.querySelector(`[circleindex = '${nextindex}']`);
       currentactive.dataset.status = 'Right';
-      console.log(nexttonextindex,nextindex)
       nextcard.dataset.status = 'Active'
       previouscard.dataset.status = 'Unknown'
       nexttonextcard.dataset.status = 'Left'
+      currentcircle.dataset.status = 'inactive'
+      nextcircle.dataset.status = 'Active'
       c = nextindex
   }
   function moveright(){
@@ -102,7 +105,7 @@ function Testimonial() {
     else{
       datatype = 'Unknown'
     }
-      return <Components.Reviewcard name={e.e.name} designation={e.e.designation} rating={e.e.rating} title={e.e.title} text={e.e.title} profilepic={e.e.profilepic} datatype={datatype} dataindex={e.c} />
+      return <Components.Reviewcard name={e.e.name} designation={e.e.designation} rating={e.e.rating} title={e.e.title} text={e.e.text} profilepic={e.e.profilepic} datatype={datatype} dataindex={e.c} />
     }
   function Addcircles(e){
     let circlestatus = 'inactive'

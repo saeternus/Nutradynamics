@@ -14,7 +14,7 @@ function TestimonialCard(props) {
     .map((_, index) => (index < rating ? colours.orange : colours.grey));
 
   return (
-    <div className="testimonial__cardbox">
+    <>
       <div className="cardhead">
         <div className="testimonialcard__img"><img src={props.img} alt="Profile Picture"/></div>
         <div className="testimonialcard__name">{props.name}</div>
@@ -30,9 +30,9 @@ function TestimonialCard(props) {
           })}
         </div>
       </div>
-      <div className="testimonialcard__title">{props.Title}</div>
-      <div className="testimonialcard__text">{props.Text}</div>
-    </div>
+      <div className="testimonialcard__title">{props.title}</div>
+      <div className="testimonialcard__text">{props.text}</div>
+    </>
   );
 }
 
