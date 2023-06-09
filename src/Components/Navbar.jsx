@@ -71,9 +71,6 @@ function Navbar() {
           <Link to='/'>Home</Link>
 
         </ul>
-        <ul className='item'>
-
-        </ul>
         <ul className='item' onClick={toggler}>
 
           <Link to='/Catalog'>Catalog</Link>
