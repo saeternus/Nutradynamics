@@ -8,6 +8,7 @@ import Contactdes from "./Contactdes";
 import Contactform from "./Contactform";
 import Footer from "./Footer";
 import Productcard from "./Productcard";
+import Reviewcard from "./Reviewcard";
 
 export {
   Navbar,
@@ -19,5 +20,6 @@ export {
   Contactdes,
   Contactform,
   Footer,
-  Productcard
+  Productcard,
+  Reviewcard
 };
