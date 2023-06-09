@@ -12,6 +12,7 @@ import Productcard from "./Productcard";
 import Reviewcard from "./Reviewcard";
 import TestimonialCard from "./TestimonialCard";
 import Productcard from "./Productcard";
+import Reviewcard from "./Reviewcard";
 
 export {
   Navbar,
@@ -27,5 +28,6 @@ export {
   Productcard,
   Reviewcard,
   TestimonialCard,
-  Productcard
+  Productcard,
+  Reviewcard
 };
