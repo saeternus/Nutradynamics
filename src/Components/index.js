@@ -27,7 +27,4 @@ export {
   TestimonialCard,
   Productcard,
   Reviewcard,
-  TestimonialCard,
-  Productcard,
-  Reviewcard
 };
