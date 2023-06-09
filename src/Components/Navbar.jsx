@@ -73,11 +73,6 @@ function Navbar() {
         </ul>
         <ul className='item' onClick={toggler}>
 
-          <Link to='/Product'>Product</Link>
-
-        </ul>
-        <ul className='item' onClick={toggler}>
-
           <Link to='/Catalog'>Catalog</Link>
 
         </ul>
