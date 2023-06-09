@@ -10,9 +10,6 @@ import Footer from "./Footer";
 import TestimonialCard from "./TestimonialCard";
 import Productcard from "./Productcard";
 import Reviewcard from "./Reviewcard";
-import TestimonialCard from "./TestimonialCard";
-import Productcard from "./Productcard";
-import Reviewcard from "./Reviewcard";
 
 export {
   Navbar,

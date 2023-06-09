@@ -13,24 +13,18 @@
 .reviewbox [data-status= 'Active' ]{
     z-index: 10;
 }
-/* .reviewbox{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
 .reviewbox [data-status= 'Left' ]{
-    /* z-index: 1; */
+    z-index: 1;
     scale: 0.8;
     left: 25%;
 }
 .reviewbox [data-status= 'Right' ]{
-    /* z-index: 1; */
+    z-index: 1;
     scale: 0.8;
     left: 75%;
 }.reviewbox [data-status= 'Unknown' ]{
     scale: 0;
 }
-.reviewbox{
-    /* position: relative; */
+.reviewcardbox{
+    padding: 20px;
 }
