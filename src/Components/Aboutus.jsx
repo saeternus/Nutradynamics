@@ -1,5 +1,6 @@
 import React from 'react'
 import './Styles/Aboutus.css'
+import aboutimg from '../Assets/Vector.png'
 
 function Aboutus() {
     return (
@@ -14,12 +15,11 @@ function Aboutus() {
                     ikarta d med exotid inte transperson Mära köttr
                     ymden antegt risamma. Gigalig ambifiering tr
                     eliga. Sup  rakroheten prertad sälogi att tibelt.
-                    Lörem ipsum föna e-learning triskade, nyrtad
-                    , sobelt. Nint doling, möre viment oning. Kanet
-                    öktig a inde. Saföse dock nyn har prerespel ja
-                    g industrisafari. </div>
+                    </div>
             </div>
-            <div className='aboutimg'></div>
+            <div className='aboutimg'>
+                <img src={aboutimg} alt="" />
+            </div>
         </div>
     )
 }

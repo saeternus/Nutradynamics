@@ -1,14 +1,13 @@
 .contactdesbox{
-    width: 30%;
+    /* width: 30%; */
     max-width: 90%;
     min-width: 300px;
     height: fit-content;
-    max-height: 800px;
+    max-height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 .contactheading{
     font-family: 'Montserrat';
@@ -25,4 +24,29 @@ font-size: 20px;
 line-height: 30px;
 max-width: 410px;
 width: 95%;
+text-align: center;
+}
+.contacttexts{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contanctimg{
+    overflow-y: hidden;
+    /* max-width: 100%; */
+}
+.contanctimg img{
+    width: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 700px) {
+    .contactheading{
+        padding-bottom: 10px;
+        font-size: 36px;
+    }
+    .contacttext{
+        font-size: 18px;
+    }
 }
