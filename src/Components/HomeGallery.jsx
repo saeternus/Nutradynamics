@@ -1,5 +1,6 @@
 import React from 'react'
 import './Styles/HomeGallery.css'
+import pic from '../Assets/top.png'
 
 function Homegallery() {
   return (
@@ -7,15 +8,30 @@ function Homegallery() {
       <div className='gallery'>Gallery</div>
       <div className='gallimgs'>
         <div className='gallimginner'>
-            <div className='gallimg one'></div>
-            <div className='gallimg secondflex'>
-            <div className='gallimg two'></div>
-            <div className='innerflex'>
-            <div className='three'></div>
-            <div className='four'></div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
             </div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
             </div>
-            <div className='gallimg five'></div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
+            </div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
+            </div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
+            </div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
+            </div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
+            </div>
+            <div className='gallimg '>
+              <img src={pic} alt="" />
+            </div>
         </div>
 
       </div>

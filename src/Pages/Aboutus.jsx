@@ -43,6 +43,7 @@ function Aboutus() {
       },]
   }
   let y = dummydata.Team.length
+  const cardwidth = 310
   let x
   const ref = useRef(null)
   const [blockleft, setblockleft] = useState(true)
@@ -54,9 +55,9 @@ function Aboutus() {
     setwidth(ref.current.offsetWidth)
   }, [left])
   function moveright() {
-    x = left - 400
-    if (x - width < -(y * 400)) {
-      setleft(-(y * 400) + width)
+    x = left - cardwidth
+    if (x - width < -(y * cardwidth)) {
+      setleft(-(y * cardwidth) + width)
       setblockright(true)
     }
     else {
@@ -65,7 +66,7 @@ function Aboutus() {
     }
   }
   function moveleft() {
-    x = left + 400
+    x = left + cardwidth
     if (x > 0) {
       setleft(0)
       setblockleft(true)
@@ -82,7 +83,7 @@ function Aboutus() {
       <div className='teambox'>
         <div className='teamheading'>Team</div>
         <div className='teamgroup'>
-          <div className='arrow' onClick={moveleft} disabled={blockleft}>
+          <div className='firstaarow arrow' onClick={moveleft} disabled={blockleft}>
             <img src={leftimg} alt="" />
           </div>
           <div className='teamgroupinner' ref={ref}>
@@ -92,6 +93,14 @@ function Aboutus() {
                 return <Components.Teamcard name={member.name} title={member.post} img={member.img} />
               })}
             </div>
+          </div>
+          <div className='firstaarow arrow' onClick={moveright} disabled={blockright}>
+            <img src={rightimg} alt="" />
+          </div>
+        </div>
+        <div className='secondarrows'>
+        <div className='arrow' onClick={moveleft} disabled={blockleft}>
+            <img src={leftimg} alt="" />
           </div>
           <div className='arrow' onClick={moveright} disabled={blockright}>
             <img src={rightimg} alt="" />

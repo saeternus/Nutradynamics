@@ -5,7 +5,7 @@ import Contact from '../Assets/contact.png'
 function Contactdes() {
   return (
     <div className='contactdesbox'>
-      <div>
+      <div className='contacttexts'>
       <div className='contactheading'>Contact Us</div>
       <div className='contacttext'>Contact us directly through mail and we
         will responde to your isues within a day

@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    max-width: 95%;
+    min-width: 450px;
 }
 .contactformbox input{
     height: 65px;
@@ -23,8 +24,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .name, .mobile{
-    width: 280px;
-    max-width: 90%;
+    max-width: 100%;
     min-width: 200px;
 }
 .email{
@@ -53,7 +53,7 @@
     justify-content: space-between;
     width: 600px;
     max-width: 90%;
-
+    gap: 10px;
 }
 .submitbox{
     width: 600px;
@@ -95,4 +95,36 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0 20px;
+}
+@media only screen and (max-width: 700px) {
+    .contactformbox{
+        min-width: 100px;
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .inputsnamemob{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .contactformbox input{
+        height: 45px;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    .contactformbox textarea{
+        height: 150px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    .submitbox{
+        height: 45px;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .contactnobox{
+        height: 45px;
+        margin: 20px 0;
+    }
 }

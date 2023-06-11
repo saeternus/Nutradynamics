@@ -8,3 +8,8 @@
     padding-top: 150px;
     flex-wrap: wrap;
 }
+@media only screen and (max-width: 700px) {
+    .contactbox{
+        padding-top: 120px;
+    }
+}
