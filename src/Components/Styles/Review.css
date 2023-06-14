@@ -3,20 +3,20 @@
     height: 400px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
-    position: relative;
+    position: absolute;
     left: 50%;
     /* top: 50%; */
     transform: translateX(-50%); 
     transition: 1s;
     background-color: white;
 }
-/* .reviewbox [data-status= 'Active' ]{
-    z-index: 1;
+.reviewbox [data-status= 'Active' ]{
+    z-index: 2;
 }
 .reviewbox [data-status= 'Left' ]{
     z-index: 1;
     scale: 0.8;
-    left: 19%;
+    left: 20%;
 }
 .reviewbox [data-status= 'Right' ]{
     z-index: 1;
@@ -24,7 +24,29 @@
     left: 75%;
 }.reviewbox [data-status= 'Unknown' ]{
     scale: 0;
-} */
+    z-index: 0;
+}
 .reviewcardbox{
     padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .reviewbox [data-status = 'Left']{
+        left: 28%;
+    }
+    .reviewbox [ data-status = 'Right']{
+        left: 60%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .reviewbox [data-status = 'Left']{
+        left:30%;
+    }
+    .reviewbox [ data-status = 'Right']{
+        left: 50%;
+    }
+    .reviewcardbox{
+        width: 95%;
+        /* scale: 0.9; */
+    }
 }
