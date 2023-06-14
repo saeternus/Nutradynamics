@@ -67,3 +67,14 @@
     width: 40px;
     background-color: #525252;
 }
+@media only screen and (max-width: 800px) {
+    .Testimonialtext{
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Testimonialtext{
+        font-size: 22px;
+        text-align: center;
+    }
+}

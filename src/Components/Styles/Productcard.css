@@ -20,7 +20,7 @@
 .productdiscount{
     position: absolute;
     transform: translate(100px, -175px);
-    z-index: 10;
+    z-index: 2;
 }
 .productinfo{
     width: 100%;
