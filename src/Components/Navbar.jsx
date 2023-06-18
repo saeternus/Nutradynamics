@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Styles/Navbar.css'
 import { Outlet, Link } from "react-router-dom";
+import cart from '../Assets/add-to-cart.png'
 
 
 function Navbar() {
@@ -26,11 +27,6 @@ function Navbar() {
         </div>
         </Link>
         <div className='list'>
-          <ul className='items'>
-
-            
-
-          </ul>
           <ul className='items product'>
             <Link to='#'>Product</Link>
             <div className='productlist'>
@@ -57,6 +53,13 @@ function Navbar() {
           <ul className='items'>
 
             <Link to='/Contact'>Contact</Link>
+
+          </ul>
+          <ul className='items'>
+
+            <Link to='#'>
+              <img src={cart} alt="" />
+            </Link>
 
           </ul>
           <ul className='items login'>

@@ -128,7 +128,12 @@ color: #000000;
     font-family: 'Oleo Script';
 font-style: normal;
 font-weight: 400;
-font-size: 36px;
+font-size: 30px;
+}
+.items a img{
+    width: 35px;
+    object-fit: cover;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 950px) {
