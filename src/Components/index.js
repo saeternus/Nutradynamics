@@ -10,6 +10,8 @@ import Footer from "./Footer";
 import TestimonialCard from "./TestimonialCard";
 import Productcard from "./Productcard";
 import Reviewcard from "./Reviewcard";
+import Filter from "./Filter";
+import Catagorie from "./Catagorie";
 
 export {
   Navbar,
@@ -24,4 +26,6 @@ export {
   TestimonialCard,
   Productcard,
   Reviewcard,
+  Filter,
+  Catagorie
 };

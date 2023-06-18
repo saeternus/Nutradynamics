@@ -114,6 +114,22 @@
 .close{
     transform: translateX(-100%);
 }
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box a{
+text-decoration: none;
+color: #000000;
+}
+.compname{
+    font-family: 'Oleo Script';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+}
 
 @media only screen and (max-width: 950px) {
     .box{
