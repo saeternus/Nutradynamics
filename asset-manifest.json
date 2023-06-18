@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nutradynamics/static/css/main.f9bd7142.css",
-    "main.js": "/Nutradynamics/static/js/main.bd522fc1.js",
+    "main.css": "/Nutradynamics/static/css/main.bd4fa0d9.css",
+    "main.js": "/Nutradynamics/static/js/main.13d50ca1.js",
     "static/js/787.28cb0dcd.chunk.js": "/Nutradynamics/static/js/787.28cb0dcd.chunk.js",
     "static/media/food@33 1.png": "/Nutradynamics/static/media/food@33 1.dc11169d83167bdba5ab.png",
     "static/media/profile.png": "/Nutradynamics/static/media/profile.a149366dcf6d9ba3e1a8.png",
@@ -12,12 +12,12 @@
     "static/media/Vector.png": "/Nutradynamics/static/media/Vector.46f4e721fcea04f684c5.png",
     "static/media/Logo-removebg-preview 1.png": "/Nutradynamics/static/media/Logo-removebg-preview 1.deb94d7af6becda79b6c.png",
     "index.html": "/Nutradynamics/index.html",
-    "main.f9bd7142.css.map": "/Nutradynamics/static/css/main.f9bd7142.css.map",
-    "main.bd522fc1.js.map": "/Nutradynamics/static/js/main.bd522fc1.js.map",
+    "main.bd4fa0d9.css.map": "/Nutradynamics/static/css/main.bd4fa0d9.css.map",
+    "main.13d50ca1.js.map": "/Nutradynamics/static/js/main.13d50ca1.js.map",
     "787.28cb0dcd.chunk.js.map": "/Nutradynamics/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9bd7142.css",
-    "static/js/main.bd522fc1.js"
+    "static/css/main.bd4fa0d9.css",
+    "static/js/main.13d50ca1.js"
   ]
 }
