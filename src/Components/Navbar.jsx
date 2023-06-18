@@ -18,16 +18,21 @@ function Navbar() {
   return (
     <>
       <div className='box'>
+      <Link to='/'>
+        <div className='comp'>
         <div className='logo'>
         </div>
+        <div className='compname'>Nutridynamics</div>
+        </div>
+        </Link>
         <div className='list'>
           <ul className='items'>
 
-            <Link to='/'>Home</Link>
+            
 
           </ul>
           <ul className='items product'>
-            <Link to='/Product'>Product</Link>
+            <Link to='#'>Product</Link>
             <div className='productlist'>
               <ul className='productitems'>
 
