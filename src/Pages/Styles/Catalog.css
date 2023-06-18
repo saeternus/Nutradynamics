@@ -55,6 +55,7 @@ margin-top: 50px;
     display: flex;
     width: calc(90%);
     flex-direction: row;
+    min-height:54px ;
     height: fit-content;
     border-radius: 20px;
     border: solid 1px blue;
@@ -67,6 +68,10 @@ margin-top: 50px;
     width: 100px;
     text-align: center;
     font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .catagoriesselected{
     display: flex;
@@ -102,6 +107,9 @@ margin-top: 50px;
     padding: 20px;
     flex-direction: column;
     align-items: center;
+    z-index: 5;
+    transition: 1s;
+    background-color: white;
 }
 .topicandimg{
     display: flex;
@@ -131,4 +139,28 @@ margin-top: 50px;
 .cattopic{
     font-size: 25px;
     margin-bottom: 15px;
+}
+.filtersapplied img{
+    display: none;
+}
+@media only screen and (max-width: 915px) {
+    .out{
+        position: absolute;
+        left: -350px;
+    }
+    .productflex{
+        width: 100%;
+    }
+    .filtersapplied img{
+        display: flex;
+    width: 30px;
+    object-fit: contain;
+    }
+    .filtersapplied{
+        cursor: pointer;
+    }
+    .slidein{
+        position: fixed;
+        left: 0px;
+    }
 }
