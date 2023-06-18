@@ -11,63 +11,63 @@ function Footer() {
           <div className="footeraddress">
             <h2>Registered Office Address</h2>
             <p className="addresscontent">
-              Flipkart Internet Private Limited, Buildings Alyssa, Begonia &
-              Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
-              Village, Bengaluru, 560103, Karnataka, India CIN :
-              U51109KA2012PTC066107
+              Head Office :- BHU NO.- 14 KH. NO 366, NEAR NEW STAR BHATTA LAULAI
+              CHINHAT , LUCKNOW,UTTAR PRADESH ,INDIA 226010{" "}
             </p>
-          </div>
-          <div className="footersociallist">
-          <h2>Social Links</h2>
-            <ul className="sociallinkitem">
-              <a
-                href="https://www.facebook.com/Flipkart"
-                className="links"
-              > Google
-              </a>
-            </ul>
-            <ul className="sociallinkitem">
-              <a
-                href="https://www.facebook.com/Flipkart"
-                className="links"
-              > Instagram
-              </a>
-            </ul>
-            <ul className="sociallinkitem">
-              <a
-                href="https://www.facebook.com/Flipkart"
-                className="links"
-              > Facebook
-              </a>
-            </ul>
+            <p>
+              {" "}
+              Reg. Office :- Road D , krishnapuri, Devpuri, Raipur Chhattisgarh
+              492015{" "}
+            </p>
+            <p>
+              Branch Office:- B-73 , Sector 11 A ,Kamal Vihar, Old Dhamtari Road
+              Raipur Chhattisgarh 492015{" "}
+            </p>
+            <p>CIN:- U15135UP2022PTC163365. GSTIN :- 09AAICN2200N1ZE</p>
           </div>
           <div className="footerlist">
-          <h2>Quick Links</h2>
+            <h2>Quick Links</h2>
             <ul className="footeritems">
-              <Link to="/"className="links">Home</Link>
+              <Link to="/" className="links">
+                Home
+              </Link>
             </ul>
             <ul className="footeritems product">
-              <Link to="/Product"className="links">Product</Link>
+              <Link to="/Product" className="links">
+                Product
+              </Link>
               <div className="footerproductlist">
                 <ul className="footerproductitems">
-                  <Link to="/Catalog"className="links">Catalog</Link>
+                  <Link to="/Catalog" className="links">
+                    Catalog
+                  </Link>
                 </ul>
                 <ul className="footerproductitems">
-                  <Link to="/Gallery"className="links">Gallery</Link>
+                  <Link to="/Gallery" className="links">
+                    Gallery
+                  </Link>
                 </ul>
                 <ul className="footerproductitems">
-                  <Link to="/Testimonial"className="links">Testimonial</Link>
+                  <Link to="/Testimonial" className="links">
+                    Testimonial
+                  </Link>
                 </ul>
               </div>
             </ul>
             <ul className="footeritems">
-              <Link to="/AboutUs" className="links">About Us</Link>
+              <Link to="/AboutUs" className="links">
+                About Us
+              </Link>
             </ul>
             <ul className="footeritems">
-              <Link to="/Contact"className="links">Contact</Link>
+              <Link to="/Contact" className="links">
+                Contact
+              </Link>
             </ul>
             <ul className="footeritems login">
-              <Link to="/Login"className="links">Login</Link>
+              <Link to="/Login" className="links">
+                Login
+              </Link>
             </ul>
           </div>
         </div>
