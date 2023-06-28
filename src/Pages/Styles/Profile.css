@@ -1,0 +1,23 @@
+.profilebox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilecontainer{
+    width: 80%;
+    height: fit-content;
+}
+.orerlistbox{
+    width: 80%;
+    height: fit-content;
+    min-height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.orderhead{
+    font-size: 30px;
+
+}

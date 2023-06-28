@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 import cart from '../Assets/add-to-cart.png'
 
 
-function Navbar() {
+function Navbar(props) {
   const [toggle, settoggle] = useState(true)
 
   function toggler() {
@@ -14,7 +14,7 @@ function Navbar() {
     else {
       settoggle(true)
     }
-  }
+  } 
 
   return (
     <>
@@ -62,11 +62,19 @@ function Navbar() {
             </Link>
 
           </ul>
+          {props.loggedin ?
+          <ul className='items login'>
+
+            <Link to='/MyProfile'>Profile</Link>
+
+          </ul>
+          :
           <ul className='items login'>
 
             <Link to='/Login'>Login</Link>
 
           </ul>
+        }
         </div>
         <div className={`navbartoogle ${(toggle) ? 'Menu'
           :

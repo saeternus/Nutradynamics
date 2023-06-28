@@ -1,0 +1,26 @@
+.ordercardbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 20px;
+}
+.orderdate{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.orderdes{
+    margin: 0 30px;
+}
+.orderdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.orderimg img{
+    width: 150px;
+}
