@@ -12,6 +12,7 @@ import Productcard from "./Productcard";
 import Reviewcard from "./Reviewcard";
 import Filter from "./Filter";
 import Catagorie from "./Catagorie";
+import Cartcard from "./Cartcard";
 
 export {
   Navbar,
@@ -27,5 +28,6 @@ export {
   Productcard,
   Reviewcard,
   Filter,
-  Catagorie
+  Catagorie,
+  Cartcard
 };

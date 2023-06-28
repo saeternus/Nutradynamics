@@ -57,7 +57,7 @@ function Navbar() {
           </ul>
           <ul className='items'>
 
-            <Link to='#'>
+            <Link to='/Cart'>
               <img src={cart} alt="" />
             </Link>
 
