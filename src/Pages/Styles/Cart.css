@@ -1,0 +1,100 @@
+.shoppingbag {
+    width: 70%;
+    min-width: 600px;
+    max-width: 950px;
+    height: 70%;
+    min-height: 600px;
+    border-radius: 10px;
+    background: #FDFDFD;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.details-table{
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.details-table th{
+    text-align: start;
+}
+.tablesize{
+    height: 290px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.price-details hr{
+    width: 100%;
+}
+.totaldisplay{
+    height: 100px;
+    width: 100%;
+    text-align: end;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+.proceedbutton{
+    width: 50%;
+    min-width: 180px;
+    text-align: center;
+    height: 50px;
+    background-color: #269FE3;
+    border-radius: 10px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bag-and-price-detail {
+    display: flex;
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.productscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    width: 90%;
+    height: 450px;
+}
+
+.price-details {
+    width: 30%;
+    min-width: 300px;
+    max-width: 400px;
+    height: 70%;
+    min-height: 600px;
+    border-radius: 10px;
+    background: #FDFDFD;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+.cartbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shoppingtext{
+    color: #000;
+    font-size: 26px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    padding: 20px 0px;
+}

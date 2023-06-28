@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import './Styles/Testimonial.css'
 import profilepic from '../Assets/profile.png'
 import * as Components from '../Components/index.js'
@@ -6,8 +6,7 @@ import leftimg from '../Assets/Expand_left_light.png'
 import rightimg from '../Assets/Expand_right_light.png'
 
 function Testimonial() {
-  let [c,setc] = useState(0)
-  let [z,setz] = useState(0)
+  let c = 0
   const dummyreviews = {
     reviews:[{
       name : 'Leo',
