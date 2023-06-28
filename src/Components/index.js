@@ -13,6 +13,8 @@ import Reviewcard from "./Reviewcard";
 import Filter from "./Filter";
 import Catagorie from "./Catagorie";
 import Cartcard from "./Cartcard";
+import Profilecard from "./Profilecard";
+import Ordercard from "./Ordercard";
 
 export {
   Navbar,
@@ -29,5 +31,7 @@ export {
   Reviewcard,
   Filter,
   Catagorie,
-  Cartcard
+  Cartcard,
+  Profilecard,
+  Ordercard
 };
