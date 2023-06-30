@@ -9,7 +9,7 @@ function Cart() {
     items: [{
       name: 'Ketchup',
       discount: '0.5%',
-      price: '$10',
+      price: '10',
       imgage: `${food}`,
       count: '1',
       id: '12345'
@@ -17,14 +17,14 @@ function Cart() {
     }, {
       name: 'Ketchup',
       discount: '0.5%',
-      price: '$10',
+      price: '10',
       imgage: `${food}`,
       count: '1',
       id: '12345'
     }, {
       name: 'Ketchup',
       discount: '0.5%',
-      price: '$10',
+      price: '10',
       imgage: `${food}`,
       count: '1',
       id: '12345'
@@ -49,8 +49,11 @@ function Cart() {
                 <Populatecart values={e} />)
             })}
           </div>
+          <hr />
+            <div className='totaldisplay'>Total = Rs {total}</div>
+            <div className='proceedbutton'>Proceed</div>
         </div>
-        <div className='price-details'>
+        {/* <div className='price-details'>
           <div className='shoppingtext'>Price Details</div>
           <div className='tablesize'>
             <table className='details-table'>
@@ -69,10 +72,7 @@ function Cart() {
               })}
             </table>
           </div>
-            <hr />
-            <div className='totaldisplay'>Total = Rs {total}</div>
-            <div className='proceedbutton'>Proceed</div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

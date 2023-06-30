@@ -13,6 +13,10 @@ function Cartcard(props) {
         <div className='productnamecart'>{props.product.name}</div>
         <div className='removelink'>Remove</div>
       </div>
+      <div className='productprice'>
+        <div>Price</div>
+        {props.product.price}
+      </div>
       <div className='quantittybuttons'>
         <div className='plussign'>
           <img src={plus} alt="" />
@@ -21,6 +25,10 @@ function Cartcard(props) {
         <div className='minussign'>
           <img src={minus} alt="" />
         </div>
+      </div>
+      <div className='totalprice'>
+        <div>Total</div>
+        {parseInt(props.product.price)*parseInt(props.product.count)}
       </div>
     </div>
   )

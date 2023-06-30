@@ -1,0 +1,47 @@
+.profilenavbox{
+    width: 300px;
+    height: calc(100vh);
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    display: flex;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    transition: 1s;
+    background-color: white;
+}
+.profilenavbox hr{
+    width: 90%;
+    border-color: black;
+}
+.profilenavbox a{
+    width: 80%;
+    height: 50px;
+}
+.username{
+    font-size: 25px;
+}
+.profilenavbutton {
+    width: 100%;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.active{
+    background-color: #269FE3;
+}
+.inactive{
+    background-color: #e7e7e7;
+}
+.compcont{
+    width: 70%;
+    min-width: 400px;
+}

@@ -58,3 +58,12 @@
 background: #F4F4F4;
 box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.productprice,
+.totalprice{
+   font-size: 23px; 
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}

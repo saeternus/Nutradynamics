@@ -15,6 +15,7 @@ import Catagorie from "./Catagorie";
 import Cartcard from "./Cartcard";
 import Profilecard from "./Profilecard";
 import Ordercard from "./Ordercard";
+import Profilenavigation from "./Profilenavigation";
 
 export {
   Navbar,
@@ -33,5 +34,6 @@ export {
   Catagorie,
   Cartcard,
   Profilecard,
-  Ordercard
+  Ordercard , 
+  Profilenavigation
 };
