@@ -1,7 +1,7 @@
 .shoppingbag {
     width: 70%;
     min-width: 600px;
-    max-width: 950px;
+    max-width: 1250px;
     height: 70%;
     min-height: 600px;
     border-radius: 10px;
@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .price-details{
     display: flex;
@@ -40,11 +41,12 @@
     width: 100%;
     text-align: end;
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 10px 7%;
 }
 .proceedbutton{
     width: 50%;
     min-width: 180px;
+    max-width: 220px;
     text-align: center;
     height: 50px;
     background-color: #269FE3;

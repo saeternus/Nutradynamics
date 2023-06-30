@@ -25,6 +25,7 @@ function App() {
             <Route path="/Testimonial" element={<Pages.Testimonial />} />
             <Route path="/Gallery" element={<Pages.Gallery />} />
             <Route path="/MyProfile" element={<Pages.Profile />} />
+            {/* <Route path="/Order" element={<Pages.Profile />} /> */}
             <Route path="/Login" element={<Pages.Login />} />
             <Route path="/Cart" element={<Pages.Cart />} />
 
